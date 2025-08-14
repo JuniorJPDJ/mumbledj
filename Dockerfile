@@ -1,5 +1,5 @@
 # Build environment for mumbledj - golang alpine container
-FROM    golang:1.24.6-alpine@sha256:c8c5f95d64aa79b6547f3b626eb84b16a7ce18a139e3e9ca19a8c078b85ba80d AS builder
+FROM    golang:1.25.0-alpine@sha256:77dd832edf2752dafd030693bef196abb24dcba3a2bc3d7a6227a7a1dae73169 AS builder
 
 # renovate: datasource=repology depName=alpine_3_22/opus-dev versioning=loose
 ARG     OPUS_VERSION="1.5.2-r1"
