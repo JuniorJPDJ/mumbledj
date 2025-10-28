@@ -12,6 +12,7 @@ require (
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.11.1
 	github.com/urfave/cli/v2 v2.27.7
+	github.com/urfave/cli/v3 v3.5.0
 	layeh.com/gumble v0.0.0-20221205141517-d1df60a3cc14
 )
 
