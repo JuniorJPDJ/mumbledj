@@ -38,6 +38,7 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20250705151800-55b8f293f342 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	golang.org/x/sync v0.18.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/term v0.37.0 // indirect
 	golang.org/x/text v0.31.0 // indirect
@@ -47,4 +48,4 @@ require (
 	layeh.com/gopus v0.0.0-20210501142526-1ee02d434e32 // indirect
 )
 
-replace github.com/markbates/safe => github.com/markbates/safe v1.0.1
+replace github.com/markbates/safe => github.com/markbates/safe v1.1.0
