@@ -2,7 +2,7 @@ module github.com/leoverto/mumbledj
 
 go 1.24.0
 
-toolchain go1.25.4
+toolchain go1.25.5
 
 require (
 	github.com/LeoVerto/gumble v0.0.0-20251104013618-3bac08831f7d
