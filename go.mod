@@ -8,7 +8,7 @@ require (
 	github.com/LeoVerto/gumble v0.0.0-20251104013618-3bac08831f7d
 	github.com/antonholmquist/jason v1.0.0
 	github.com/channelmeter/iso8601duration v0.0.0-20150204201828-8da3af7a2a61
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.11.1
 	github.com/urfave/cli/v3 v3.6.1
