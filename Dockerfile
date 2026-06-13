@@ -1,8 +1,8 @@
 # Build environment for mumbledj - golang alpine container
 FROM    golang:1.26.4-alpine@sha256:7a3e50096189ad57c9f9f865e7e4aa8585ed1585248513dc5cda498e2f41812c AS builder
 
-# renovate: datasource=repology depName=alpine_3_23/opus-dev versioning=loose
-ARG     OPUS_VERSION="1.5.2-r1"
+# renovate: datasource=repology depName=alpine_3_24/opus-dev versioning=loose
+ARG     OPUS_VERSION="1.6.1-r0"
 
 ARG     branch=master
 
@@ -22,16 +22,16 @@ RUN     make build install
 # Export binary only from builder environment
 FROM    alpine:3.24.0@sha256:a2d49ea686c2adfe3c992e47dc3b5e7fa6e6b5055609400dc2acaeb241c829f4
 
-# renovate: datasource=repology depName=alpine_3_23/ffmpeg versioning=loose
-ARG     FFMPEG_VERSION="8.0.1-r1"
-# renovate: datasource=repology depName=alpine_3_23/openssl versioning=loose
+# renovate: datasource=repology depName=alpine_3_24/ffmpeg versioning=loose
+ARG     FFMPEG_VERSION="8.1.1-r0"
+# renovate: datasource=repology depName=alpine_3_24/openssl versioning=loose
 ARG     OPENSSL_VERSION="3.5.7-r0"
-# renovate: datasource=repology depName=alpine_3_23/aria2 versioning=loose
-ARG     ARIA2_VERSION="1.37.0-r1"
-# renovate: datasource=repology depName=alpine_3_23/yt-dlp versioning=loose
-ARG     YT_DLP_VERSION="2026.03.17-r0"
-# renovate: datasource=repology depName=alpine_3_23/opus versioning=loose
-ARG     OPUS_VERSION="1.5.2-r1"
+# renovate: datasource=repology depName=alpine_3_24/aria2 versioning=loose
+ARG     ARIA2_VERSION="1.37.0-r2"
+# renovate: datasource=repology depName=alpine_3_24/yt-dlp versioning=loose
+ARG     YT_DLP_VERSION="2026.06.09-r0"
+# renovate: datasource=repology depName=alpine_3_24/opus versioning=loose
+ARG     OPUS_VERSION="1.6.1-r0"
 
 RUN     apk add --no-cache \
           ffmpeg=${FFMPEG_VERSION} \
