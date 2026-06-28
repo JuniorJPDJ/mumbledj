@@ -23,7 +23,7 @@ RUN     make build install
 FROM    alpine:3.24.1@sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b
 
 # renovate: datasource=repology depName=alpine_3_24/ffmpeg versioning=loose
-ARG     FFMPEG_VERSION="8.1.1-r0"
+ARG     FFMPEG_VERSION="8.1.2-r0"
 # renovate: datasource=repology depName=alpine_3_24/openssl versioning=loose
 ARG     OPENSSL_VERSION="3.5.7-r0"
 # renovate: datasource=repology depName=alpine_3_24/aria2 versioning=loose
