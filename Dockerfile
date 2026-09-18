@@ -20,7 +20,7 @@ RUN     make build install
 
 
 # Export binary only from builder environment
-FROM    alpine:3.24.1@sha256:28bd5fe8b56d1bd048e5babf5b10710ebe0bae67db86916198a6eec434943f8b
+FROM    alpine:3.24.2@sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6
 
 # renovate: datasource=repology depName=alpine_3_24/ffmpeg versioning=loose
 ARG     FFMPEG_VERSION="8.1.2-r0"
