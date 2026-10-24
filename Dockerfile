@@ -23,13 +23,13 @@ RUN     make build install
 FROM    alpine:3.24.2@sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6
 
 # renovate: datasource=repology depName=alpine_3_24/ffmpeg versioning=loose
-ARG     FFMPEG_VERSION="8.1.2-r0"
+ARG     FFMPEG_VERSION="8.1.3-r0"
 # renovate: datasource=repology depName=alpine_3_24/openssl versioning=loose
 ARG     OPENSSL_VERSION="3.5.9-r0"
 # renovate: datasource=repology depName=alpine_3_24/aria2 versioning=loose
 ARG     ARIA2_VERSION="1.37.0-r2"
 # renovate: datasource=repology depName=alpine_3_24/yt-dlp versioning=loose
-ARG     YT_DLP_VERSION="2026.08.19-r0"
+ARG     YT_DLP_VERSION="2026.10.21-r0"
 # renovate: datasource=repology depName=alpine_3_24/opus versioning=loose
 ARG     OPUS_VERSION="1.6.1-r0"
 
